@@ -6,4 +6,4 @@ install:
   - pip install -r requirements.txt
 script: python -m projmon.test
 notifications:
-  webhooks: http://project-monitor.herokuapp.com/projects/18F-project-monitor/status
+  webhooks: https://project-monitor.herokuapp.com/projects/18F-project-monitor/status
