@@ -7,9 +7,9 @@ with open(join(dirname(__file__), 'projmon', 'VERSION')) as file:
 setup(
     name = 'Project-Monitor',
     version = version,
-    url = 'https://github.com/codeforamerica/projectmonitor',
-    author = 'Michal Migurski',
-    author_email = 'mike@codeforamerica.org',
+    url = 'https://github.com/18F/project-monitor',
+    author = 'Moncef Belyamani',
+    author_email = 'moncef.belyamani@gsa.gov',
     packages = ['projmon'],
     package_data = {
         'projmon': ['VERSION']
@@ -17,13 +17,13 @@ setup(
     install_requires = [
         # http://flask.pocoo.org
         'flask == 0.10.1',
-        
+
         # http://initd.org/psycopg/
         'psycopg2 >= 2',
-        
+
         # http://python-future.org
         'future >= 0.14.3',
-        
+
         # https://bugs.launchpad.net/ubuntu/+source/python-pip/+bug/1306991/comments/10
         'requests == 2.2.1',
 
